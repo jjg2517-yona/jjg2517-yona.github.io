@@ -1,0 +1,189 @@
+
+    /* Reset y fuente global */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      line-height: 1.5;
+    }
+
+    /* Caja de bienvenida */
+    .caja {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    /* Navbar con Flexbox */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #004080;
+      padding: 15px 20px;
+      color: white;
+    }
+    nav h2 {
+      font-size: 1.5em;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    nav button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      margin-left: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    nav button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Hero Banner */
+    section:first-of-type {
+      text-align: center;
+      padding: 50px;
+      background: linear-gradient(to right, #e6f2ff, #ffffff);
+    }
+    section:first-of-type h1 {
+      font-size: 2.5em;
+      color: #2c3e50;
+    }
+    section:first-of-type p {
+      font-size: 1.2em;
+      color: #555;
+    }
+    section:first-of-type button {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 15px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    section:first-of-type button:hover {
+      background-color: #1e7e34;
+    }
+
+    /* Carrusel con Flexbox */
+    section div {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin: 20px 0;
+    }
+    section div img {
+      width: 200px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    /* Modelos destacados */
+    .modelos-destacados {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .contenedor-modelos {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .tarjeta-modelos {
+        flex: 1;
+        min-width: 250px;
+        max-width: 300px;
+        }
+    .tarjeta-modelos img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .tarjeta-modelos h3 {
+        margin: 15px 0;
+    }
+    .tarjeta-modelos button {
+        background: #00a8ff;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        cursor: pointer;
+    }
+    .modelos-destacados button {
+        background: #00a8ff;
+        color: white;
+        gap: 20px;
+        border: none;
+        padding: 12px 20px;
+        cursor: pointer;
+    }
+    /* Formulario de contacto */
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 400px;
+      margin: auto;
+    }
+    .botones {
+        content-align: center;
+        
+
+    }
+    .opciones {
+        display: flex;
+        width: 100px;
+        text-align: center;
+        padding: 8px;
+        background: #050505;
+        color: #f8f9fa;
+    }
+
+    form input, form textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    form button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
